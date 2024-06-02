@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+nav a:hover{
+    color: #ff5c00;
+    transition: color 0.5s;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+
+nav li{
+    display: inline;
+    padding-right: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#testocentro{
+    background-image: url(../../assets/img/sfondo.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+body{
+
+    background-color: #333133;
+}
+
+#eventi{
+    background-color: #ecf0f0;
+    margin: 20px;
+    padding: 40px 20px ;
+}
+
+
+caption{
+    font-weight: bold;
+    padding: 15px;
+}
+
+thead{
+    background-color: #ffd238;
+}
+
+th,td{
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ecf0f0 ;
+}
+
+tbody tr:nth-child(even){
+    background-color: white ;
+}
+
+tfoot{
+    background-color: #bfc1c6;
+    font-weight: bold;
+}
+
+table { 
+    border-collapse: collapse;
+    width: 100%;
+} 
+
+thead th { 
+    border: none;
+}
+
+tbody td {
+    border: 1px solid #E7E9EC;
+}
+
+
+#contatti{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+} 
+
+ul{
+    list-style: none;
+}
+
+#contatti a {
+    font-weight: bold;
+    color: #393c41 ;
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+#contatti a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
